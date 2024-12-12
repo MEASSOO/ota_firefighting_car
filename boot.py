@@ -7,7 +7,7 @@ from servo import Servo
 from ota import OTAUpdater
 
 # initialize OTA
-firmware_url = "https://raw.githubusercontent.com/MEASSOO/ota_firefighting_car/refs/heads/"
+firmware_url = "https://raw.githubusercontent.com/MEASSOO/ota_firefighting_car/"
 
 
 
