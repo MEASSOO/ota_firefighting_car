@@ -48,7 +48,6 @@ r_sensor = ADC(Pin(27, Pin.IN))
 
 
 
-ota_updater = OTAUpdater("Orange_AB2F", "6mE8R3iBhD4M", firmware_url, "update.py")
 
 
 def Feedback():
@@ -163,7 +162,7 @@ pump.off()
  
 while True:
 
-    
+    ota_updater = OTAUpdater("Orange_AB2F", "6mE8R3iBhD4M", firmware_url, "boot.py")
     ota_updater.download_and_install_update_if_available()
 
     time.sleep(5)
