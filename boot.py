@@ -163,14 +163,11 @@ pump.off()
  
 while True:
 
-    testLed.on()
-
-    time.sleep(5)
     
     ota_updater.download_and_install_update_if_available()
 
     time.sleep(5)
 
-    testLed.off()
+    
  
 
