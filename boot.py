@@ -161,7 +161,7 @@ pump.off()
  
  
 while True:
-    testLed.off()
+    testLed.on()
     ota_updater = OTAUpdater("Orange_AB2F", "6mE8R3iBhD4M", firmware_url, "boot.py")
     ota_updater.download_and_install_update_if_available()
 
